@@ -1,5 +1,5 @@
 
-#Class Details
+# Class Details
 
 ## GPIO_Base
 The GPIO_Base class is the base class for all other GPIO-related classes in our implementation. It includes methods for initializing and cleaning up the GPIO pins, as well as properties for getting and setting the pin mode and state.
