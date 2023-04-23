@@ -1,0 +1,11 @@
+from JalaliDate_Class import JalaliDate
+
+jalalidate = JalaliDate()
+
+# Convert Gregorian date to Jalali
+jy, jm, jd = jalalidate.gregorian_to_jalali(2023, 4, 19)
+print(f"Jalali date: {jy}/{jm}/{jd}")
+
+# Convert Jalali date to Gregorian
+gy, gm, gd = jalalidate.jalali_to_gregorian(1402, 2, 30)
+print(f"Gregorian date: {gy}/{gm}/{gd}")
